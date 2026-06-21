@@ -1,4 +1,5 @@
-<div class="banner-style-one-area bg-gray" style="background-image: url({{ asset('frontend/assets/img/shape/4.png') }});" id="banner">
+<div class="banner-style-one-area bg-gray" style="background-image: url({{ asset('frontend/assets/img/shape/4.png') }});"
+    id="banner">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12">
@@ -56,13 +57,24 @@
                             </div>
                             <ul class="social-info">
                                 <li>
-                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="https://www.facebook.com/share/1EbvE5fes5/" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://t.me/nhannhim" target="_blank">
+                                        <i class="fab fa-telegram-plane"></i>
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                                    <a href="https://www.tiktok.com/@ict.center?_r=1&_t=ZS-978aXUeqBMo" target="_blank">
+                                        <i class="fab fa-tiktok"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://ictcenter.blog/" target="_blank">
+                                        <i class="fas fa-globe"></i>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
