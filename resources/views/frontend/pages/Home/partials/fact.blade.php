@@ -1,5 +1,3 @@
-<!-- Start Fun Fact
-                                                    ============================================= -->
 <div class="fun-factor-area default-padding overflow-hidden">
     <div class="container">
         <div class="row">
@@ -49,7 +47,7 @@
             <!-- Single item -->
             <div class="funfact-style-two-item wow fadeInUp" data-wow-delay="200ms">
                 <div class="icon">
-                    <img src="frontend/assets/img/icon/wordpress.png" alt="Image Not Found">
+                    <img src="{{ asset('frontend/assets/img/icon/wordpress.png') }}" alt="Image Not Found">
                 </div>
                 <div class="fun-fact">
                     <div class="counter">
@@ -65,7 +63,7 @@
             <!-- Single item -->
             <div class="funfact-style-two-item wow fadeInUp" data-wow-delay="300ms">
                 <div class="icon">
-                    <img src="frontend/assets/img/icon/photoshop.png" alt="Image Not Found">
+                    <img src="{{ asset('frontend/assets/img/icon/photoshop.png') }}" alt="Image Not Found">
                 </div>
                 <div class="fun-fact">
                     <div class="counter">
@@ -81,7 +79,7 @@
             <!-- Single item -->
             <div class="funfact-style-two-item wow fadeInUp" data-wow-delay="400ms">
                 <div class="icon">
-                    <img src="frontend/assets/img/icon/diamon.png" alt="Image Not Found">
+                    <img src="{{ asset('frontend/assets/img/icon/diamon.png') }}" alt="Image Not Found">
                 </div>
                 <div class="fun-fact">
                     <div class="counter">
@@ -97,7 +95,7 @@
             <!-- Single item -->
             <div class="funfact-style-two-item wow fadeInUp" data-wow-delay="500ms">
                 <div class="icon">
-                    <img src="frontend/assets/img/icon/ai.png" alt="Image Not Found">
+                    <img src="{{ asset('frontend/assets/img/icon/ai.png') }}" alt="Image Not Found">
                 </div>
                 <div class="fun-fact">
                     <div class="counter">
