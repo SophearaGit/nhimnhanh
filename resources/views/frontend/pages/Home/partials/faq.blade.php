@@ -1,15 +1,21 @@
 <div class="faq-style-one-area default-padding">
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="thumb-style-one">
                     <img src="{{ asset('frontend/assets/img/about/nhim.jpg') }}" alt="Image Not Found">
-                    <div class="chat-card">
-                        <p>Can't find what your are loking for you?</p>
-                        <h5>I would like to chat with you</h5>
-                        <a href="https://t.me/nhannhim" target="_blank"><i class="fab fa-telegram"></i></a>
-                        <img src="{{ asset('frontend/assets/img/shape/12.png') }}" alt="Image Not Found">
+                </div>
+                <div
+                    style="margin-top: 25px; border: 1px solid rgba(255,255,255,0.15); border-radius: 16px; padding: 20px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; background: rgba(128,128,128,0.1);">
+                    <div>
+                        <p style="margin: 0 0 4px; font-size: 13px; opacity: 0.6;">Can't find what you are looking for?
+                        </p>
+                        <h5 style="margin: 0; font-size: 17px; font-weight: 700;">I would like to chat with you</h5>
                     </div>
+                    <a href="https://t.me/nhannhim" target="_blank"
+                        style="display: inline-flex; align-items: center; gap: 8px; background: #229ED9; color: #fff; padding: 11px 20px; border-radius: 50px; font-size: 14px; font-weight: 600; text-decoration: none; white-space: nowrap; flex-shrink: 0;">
+                        <i class="fab fa-telegram" style="font-size: 16px;"></i> Chat on Telegram
+                    </a>
                 </div>
             </div>
             <div class="col-lg-5 offset-lg-1">
