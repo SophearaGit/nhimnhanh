@@ -8,7 +8,7 @@
                         {{-- <h1>I👋 am Nhanh  </h1> --}}
                         <h1>
                             <span class="header-caption" id="page-top">
-                                I👋 am Nhim
+                                Mr.Nhanh Nhim
                             </span>
                         </h1>
                         <h2>
@@ -24,6 +24,7 @@
                                         <b class="is-hidden">UI/UX Designer</b>
                                         <b class="is-hidden">Professional Coder</b>
                                         <b class="is-visible">CEO&Founder of ICT</b>
+                                        <b class="is-hidden">IT Teacher</b>
                                     </span>
                                 </span>
 
@@ -43,11 +44,10 @@
                                 <a href="#portfolio"><i class="fas fa-long-arrow-right"></i></a>
                             </div>
                             <p>
-                                I am Nhanh Nhim, an IT educator, entrepreneur, and technology leader with extensive
-                                experience in software development, UI/UX design, and mobile application development. As
-                                the Co-Founder and CEO of ICT Professional Training Center and ICT Solutions Co., Ltd.,
-                                I am dedicated to empowering the next generation of digital professionals through
-                                practical, industry-focused training.
+                                I am Nhanh Nhim, an IT educator, entrepreneur, instructor, and technology leader with
+                                more than 10 years of experience in both the technology industry and higher education.
+                                My expertise spans software development, UI/UX design, mobile application development,
+                                and digital innovation.
                             </p>
                         </div>
                         <div class="flex-social mt-40">

@@ -5,6 +5,8 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Frontend\FrontendController;
 use Illuminate\Support\Facades\Route;
 Route::get('/', [FrontendController::class, 'index'])->name('home');
+Route::get('/project/{id}', [FrontendController::class, 'projectDetail'])->name('project.detail');
+
 Route::group(['middleware' => ['auth:web', 'verified', 'check_role:customer'], 'prefix' => 'customer', 'as' => 'c.'], function () {
     Route::get('/dashboard', [CustomerDashboardController::class, 'index'])->name('dashboard');
 });

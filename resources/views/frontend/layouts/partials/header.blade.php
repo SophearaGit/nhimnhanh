@@ -1,5 +1,3 @@
-<!-- Header
-    ============================================= -->
 <header>
 
     <!-- Start Navigation -->
@@ -78,7 +76,7 @@
                                 </button>
                             </li> --}}
                             <li class="button">
-                                <a class="smooth-menu" href="#contact">
+                                <a class="smooth-menu" href="{{ url('https://t.me/nhannhim') }}">
                                     <span data-en="Let's Talk" data-km="តោះនិយាយ">Let's Talk</span>
                                     <i class="fas fa-comment-alt"></i>
                                 </a>
@@ -99,5 +97,3 @@
 
     <!-- End Navigation -->
 </header>
-
-<!-- End Header -->

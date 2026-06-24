@@ -4,7 +4,7 @@
     @include('frontend.pages.Home.partials.banner')
     @include('frontend.pages.Home.partials.about')
     @include('frontend.pages.Home.partials.services')
-    @include('frontend.pages.Home.partials.portfolio')
+    @include('frontend.pages.Home.partials.projects')
     @include('frontend.pages.Home.partials.fact')
     @include('frontend.pages.Home.partials.resume')
     {{-- @include('frontend.pages.Home.partials.testimonial') --}}
