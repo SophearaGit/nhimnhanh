@@ -46,13 +46,12 @@
                                 </div>
                             </div>
                         @endforeach
-
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="load-more-info text-center mt-60 mt-xs-30">
-                            <p>Showing {{ count($projects) }} of 12 projects. <a href="#">Load More</a></p>
+                            <p>Showing {{ count($projects) }} of 13 projects. <a href="#">Load More</a></p>
                         </div>
                     </div>
                 </div>
