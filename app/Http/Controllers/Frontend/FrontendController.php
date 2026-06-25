@@ -1,10 +1,7 @@
 <?php
-
 namespace App\Http\Controllers\Frontend;
-
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
 class FrontendController extends Controller
 {
     private function getProjects()
@@ -222,36 +219,67 @@ class FrontendController extends Controller
                 'challenges' => 'Making a portfolio that stands out while staying clean and easy to navigate.',
                 'solution' => 'Designed and built a fast, minimal portfolio site with smooth navigation and clear project showcases.',
             ],
+            [
+                'id' => 13,
+                'title' => 'ICT React web application',
+                'client' => 'Local Client',
+                'date' => 'January, 2025',
+                'service' => 'Web Development',
+                'address' => 'Phnom Penh, Cambodia',
+                'tags' => ['Web', 'React'],
+                'thumbnail' => 'frontend/assets/img/projects/lokruproject/ictreact1.png',
+                'images' => [
+                    'frontend/assets/img/projects/lokruproject/ictreact1.png',
+                    'frontend/assets/img/projects/lokruproject/ictreact2.png',
+                    'frontend/assets/img/projects/lokruproject/ictreact3.png',
+                    'frontend/assets/img/projects/lokruproject/ictreact4.png',
+                ],
+                'description' => 'A modern React-based web application built for an ICT company with a clean and responsive interface.',
+                'background' => 'The client needed a fast, modern web presence built with React to showcase their ICT services.',
+                'challenges' => 'Structuring reusable components while maintaining a consistent design system across all pages.',
+                'solution' => 'Developed a component-driven React application with a clean UI, smooth navigation, and fully responsive layout.',
+            ],
+            [
+                'id' => 14,
+                'title' => 'Pharmacare management system',
+                'client' => 'Local Client',
+                'date' => 'February, 2025',
+                'service' => 'Web Development',
+                'address' => 'Phnom Penh, Cambodia',
+                'tags' => ['Web', 'Management'],
+                'thumbnail' => 'frontend/assets/img/projects/lokruproject/pharmacare1.png',
+                'images' => [
+                    'frontend/assets/img/projects/lokruproject/pharmacare1.png',
+                    'frontend/assets/img/projects/lokruproject/pharmacare2.png',
+                    'frontend/assets/img/projects/lokruproject/pharmacare3.png',
+                    'frontend/assets/img/projects/lokruproject/pharmacare4.png',
+                    'frontend/assets/img/projects/lokruproject/pharmacare6.png',
+                    'frontend/assets/img/projects/lokruproject/pharmacaredashboard.png',
+                    'frontend/assets/img/projects/lokruproject/pharmacarelogin.png',
+                ],
+                'description' => 'A pharmacy management system for handling medicine inventory, patient records, and sales tracking.',
+                'background' => 'The client needed a digital system to manage their pharmacy operations and reduce manual paperwork.',
+                'challenges' => 'Designing an intuitive interface for pharmacy staff to quickly search, manage, and track medicine stock.',
+                'solution' => 'Built a full-featured pharmacy management system with a dashboard, login system, inventory management, and sales reporting.',
+            ],
         ];
     }
-
     public function index()
     {
         $data = [
             'page_title' => 'Home',
-            'projects' => collect($this->getProjects())->take(6)->all(),
+            'projects' => collect($this->getProjects())->take(14)->all(),
         ];
         return view('frontend.pages.Home.index', $data);
     }
-
     public function projectDetail($id)
     {
         $projects = $this->getProjects();
-
         $project = collect($projects)->firstWhere('id', (int) $id);
-
         if (!$project)
             abort(404);
-
         $prev = collect($projects)->firstWhere('id', (int) $id - 1);
         $next = collect($projects)->firstWhere('id', (int) $id + 1);
-
         return view('frontend.pages.Home.project-detail', compact('project', 'prev', 'next'));
-        //                                    ↑ no longer inside partials/
     }
-
-
-
 }
-
-
