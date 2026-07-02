@@ -52,12 +52,13 @@
                         </div>
                         <div class="flex-social mt-40">
                             <div class="button">
-                                <a class="btn-style-regular" href="#contact"><span>Let's Work Together</span> <i
+                                <a class="btn-style-regular" href="#contact"><span>Contact</span> <i
                                         class="fas fa-arrow-right"></i></a>
                             </div>
                             <ul class="social-info">
                                 <li>
-                                    <a href="https://www.facebook.com/share/1EbvE5fes5/" target="_blank">
+                                    <a href="https://www.facebook.com/share/1P1uwam1k5/?mibextid=wwXIfr"
+                                        target="_blank">
                                         <i class="fab fa-facebook-f"></i>
                                     </a>
                                 </li>
@@ -67,13 +68,19 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.tiktok.com/@ict.center?_r=1&_t=ZS-978aXUeqBMo" target="_blank">
+                                    <a href="https://vt.tiktok.com/ZSC9Gv2kc/" target="_blank">
                                         <i class="fab fa-tiktok"></i>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="https://ictcenter.blog/" target="_blank">
                                         <i class="fas fa-globe"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://ict-solution.ictcenter.blog/" target="_blank">
+                                        <img src="{{ asset('frontend/assets/img/logo_ict_solu.png') }}"
+                                            alt="ICT Solution" style="width:52px;height:52px;object-fit:contain;">
                                     </a>
                                 </li>
                             </ul>
