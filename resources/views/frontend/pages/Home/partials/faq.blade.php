@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="thumb-style-one">
-                    <img src="{{ asset('frontend/assets/img/about/nhim.jpg') }}" alt="Image Not Found">
+                    <img src="{{ asset('frontend/assets/img/about/nhim.webp') }}" alt="Image Not Found">
                 </div>
                 <div
                     style="margin-top: 25px; border: 1px solid rgba(255,255,255,0.15); border-radius: 16px; padding: 20px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; background: rgba(128,128,128,0.1);">

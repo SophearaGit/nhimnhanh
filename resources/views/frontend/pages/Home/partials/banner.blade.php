@@ -1,4 +1,4 @@
-<div class="banner-style-one-area bg-gray" style="background-image: url({{ asset('frontend/assets/img/shape/4.png') }});"
+<div class="banner-style-one-area bg-gray" style="background-image: url({{ asset('frontend/assets/img/shape/4.webp') }});"
     id="banner">
     <div class="container">
         <div class="row align-items-center">
@@ -38,7 +38,7 @@
                                     <!-- curved-circle start-->
                                     <div class="circle-text-item"
                                         data-circle-text-options='{"radius": 75, "forceWidth": true, "forceHeight": true }'>
-                                        . See My Portfolio . My Expertise
+                                        {{-- . See My Portfolio . My Expertise --}}
                                     </div>
                                 </div>
                                 <a href="#portfolio"><i class="fas fa-long-arrow-right"></i></a>
@@ -79,7 +79,7 @@
                                 </li>
                                 <li>
                                     <a href="https://ict-solution.ictcenter.blog/" target="_blank">
-                                        <img src="{{ asset('frontend/assets/img/logo_ict_solu.png') }}"
+                                        <img src="{{ asset('frontend/assets/img/logo_ict_solu.webp') }}"
                                             alt="ICT Solution" style="width:52px;height:52px;object-fit:contain;">
                                     </a>
                                 </li>
@@ -87,9 +87,10 @@
                         </div>
                     </div>
                     <div class="thumb">
-                        <img src="{{ asset('frontend/assets/img/illustration/1.JPG') }}" alt="Image Not Found">
-                        <img src="{{ asset('frontend/assets/img/shape/1.png') }}" alt="Image Not Found">
-                        <img src="{{ asset('frontend/assets/img/shape/3.png') }}" alt="Image Not Found">
+                        <img src="{{ asset('frontend/assets/img/illustration/1.webp') }}" alt="Image Not Found"
+                            loading="eager" fetchpriority="high" decoding="async">
+                        <img src="{{ asset('frontend/assets/img/shape/1.webp') }}" alt="Image Not Found">
+                        <img src="{{ asset('frontend/assets/img/shape/3.webp') }}" alt="Image Not Found">
                     </div>
                 </div>
             </div>

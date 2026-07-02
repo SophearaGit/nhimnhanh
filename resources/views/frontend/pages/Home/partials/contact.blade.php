@@ -42,8 +42,8 @@
                                 <button class="btn-style-regular" type="submit" name="submit" id="submit">
                                     {{-- <span>Get in Touch</span> <i class="fas fa-arrow-right"></i> --}}
                                     <span><a href="https://t.me/nhannhim" target="_blank">
-                                        Get in Touch
-                                    </a></span> <i class="fas fa-arrow-right"></i>
+                                            Get in Touch
+                                        </a></span> <i class="fas fa-arrow-right"></i>
                                 </button>
                             </div>
                         </div>
@@ -56,9 +56,9 @@
                 </div>
             </div>
             <div class="contact-illustration">
-                <img src="{{ asset('frontend/assets/img/illustration/5.png') }}" alt="Image Not Found"
-                    style="transform: translateX(88px);">
-                <img src="{{ asset('frontend/assets/img/shape/13.png') }}" alt="Image Not Found">
+                <img src="{{ asset('frontend/assets/img/illustration/5.webp') }}" alt="Image Not Found"
+                    style="transform: translateX(88px);" loading="eager" fetchpriority="high" decoding="async">
+                <img src="{{ asset('frontend/assets/img/shape/13.webp') }}" alt="Image Not Found">
             </div>
         </div>
     </div>

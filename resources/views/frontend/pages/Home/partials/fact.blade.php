@@ -15,7 +15,7 @@
             <!-- Single item -->
             <div class="funfact-style-two-item wow fadeInUp">
                 <div class="icon">
-                    <img src="{{ asset('frontend/assets/img/icon/xd.png') }}" alt="Image Not Found">
+                    <img src="{{ asset('frontend/assets/img/icon/xd.webp') }}" alt="Image Not Found">
                 </div>
                 <div class="fun-fact">
                     <div class="counter">
@@ -31,7 +31,7 @@
             <!-- Single item -->
             <div class="funfact-style-two-item wow fadeInUp" data-wow-delay="100ms">
                 <div class="icon">
-                    <img src="{{ asset('frontend/assets/img/icon/figma.png') }}" alt="Image Not Found">
+                    <img src="{{ asset('frontend/assets/img/icon/figma.webp') }}" alt="Image Not Found">
                 </div>
                 <div class="fun-fact">
                     <div class="counter">
@@ -47,7 +47,7 @@
             <!-- Single item -->
             <div class="funfact-style-two-item wow fadeInUp" data-wow-delay="200ms">
                 <div class="icon">
-                    <img src="{{ asset('frontend/assets/img/icon/wordpress.png') }}" alt="Image Not Found">
+                    <img src="{{ asset('frontend/assets/img/icon/wordpress.webp') }}" alt="Image Not Found">
                 </div>
                 <div class="fun-fact">
                     <div class="counter">
@@ -63,7 +63,7 @@
             <!-- Single item -->
             <div class="funfact-style-two-item wow fadeInUp" data-wow-delay="300ms">
                 <div class="icon">
-                    <img src="{{ asset('frontend/assets/img/icon/photoshop.png') }}" alt="Image Not Found">
+                    <img src="{{ asset('frontend/assets/img/icon/photoshop.webp') }}" alt="Image Not Found">
                 </div>
                 <div class="fun-fact">
                     <div class="counter">
@@ -79,7 +79,7 @@
             <!-- Single item -->
             <div class="funfact-style-two-item wow fadeInUp" data-wow-delay="400ms">
                 <div class="icon">
-                    <img src="{{ asset('frontend/assets/img/icon/diamon.png') }}" alt="Image Not Found">
+                    <img src="{{ asset('frontend/assets/img/icon/diamon.webp') }}" alt="Image Not Found">
                 </div>
                 <div class="fun-fact">
                     <div class="counter">
@@ -95,7 +95,7 @@
             <!-- Single item -->
             <div class="funfact-style-two-item wow fadeInUp" data-wow-delay="500ms">
                 <div class="icon">
-                    <img src="{{ asset('frontend/assets/img/icon/ai.png') }}" alt="Image Not Found">
+                    <img src="{{ asset('frontend/assets/img/icon/ai.webp') }}" alt="Image Not Found">
                 </div>
                 <div class="fun-fact">
                     <div class="counter">

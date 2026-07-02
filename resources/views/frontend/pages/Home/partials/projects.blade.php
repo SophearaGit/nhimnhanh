@@ -1,6 +1,6 @@
 <div id="portfolio" class="portfolio-style-one-area default-padding bg-gray">
     <div class="shape-top-left">
-        <img src="{{ asset('frontend/assets/img/shape/9.png') }}" alt="Image Not Found">
+        <img src="{{ asset('frontend/assets/img/shape/9.webp') }}" alt="Image Not Found">
     </div>
     <div class="container">
         <div class="row">
@@ -20,7 +20,13 @@
                         @foreach ($projects as $project)
                             <div class="gallery-item">
                                 <div class="gallery-style-one">
-                                    <img src="{{ asset($project['thumbnail']) }}" alt="{{ $project['title'] }}">
+                                    <div
+                                        style="width: 100%; aspect-ratio: 4 / 3; overflow: hidden; position: relative;">
+                                        <img src="{{ asset($project['thumbnail']) }}" loading="lazy" decoding="async"
+                                            fetchpriority="low" width="500" height="375"
+                                            alt="{{ $project['title'] }}"
+                                            style="width:100%;height:100%;object-fit:cover;display:block;">
+                                    </div>
                                     <div class="info">
                                         <div class="overlay">
                                             <div class="content">
@@ -57,7 +63,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="load-more-info text-center mt-60 mt-xs-30">
-                            <p>Showing {{ count($projects) }} of 21 projects. <a href="#">Load More</a></p>
+                            <p>Showing {{ count($projects) }} of 24 projects. <a href="#">Load More</a></p>
                         </div>
                     </div>
                 </div>

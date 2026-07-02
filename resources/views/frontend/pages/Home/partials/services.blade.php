@@ -15,11 +15,11 @@
             <!-- Single Item -->
             <div class="col-xl-3 col-md-6 mb-30 wow fadeInUp">
                 <div class="service-style-one-item">
-                    <img src="{{ asset('frontend/assets/img/icon/4.png') }}" alt="Image Not Found">
-                    <img src="{{ asset('frontend/assets/img/icon/8.png') }}" alt="Image Not Found">
+                    <img src="{{ asset('frontend/assets/img/icon/4.webp') }}" alt="Image Not Found">
+                    <img src="{{ asset('frontend/assets/img/icon/8.webp') }}" alt="Image Not Found">
                     <h4><a href="services-details.html">Branding Design</a></h4>
                     <a href="services-details.html" class="btn-style-four">
-                        <div class="icon"><img src="{{ asset('frontend/assets/img/icon/arrow.png') }}"
+                        <div class="icon"><img src="{{ asset('frontend/assets/img/icon/arrow.webp') }}"
                                 alt="Image Not Found">
                         </div>
                         Read More
@@ -36,11 +36,11 @@
             <!-- Single Item -->
             <div class="col-xl-3 col-md-6 mb-30 active wow fadeInUp" data-wow-delay="200ms">
                 <div class="service-style-one-item active">
-                    <img src="{{ asset('frontend/assets/img/icon/5.png') }}" alt="Image Not Found">
-                    <img src="{{ asset('frontend/assets/img/icon/8.png') }}" alt="Image Not Found">
+                    <img src="{{ asset('frontend/assets/img/icon/5.webp') }}" alt="Image Not Found">
+                    <img src="{{ asset('frontend/assets/img/icon/8.webp') }}" alt="Image Not Found">
                     <h4><a href="services-details.html">App Development</a></h4>
                     <a href="services-details.html" class="btn-style-four">
-                        <div class="icon"><img src="{{ asset('frontend/assets/img/icon/arrow.png') }}"
+                        <div class="icon"><img src="{{ asset('frontend/assets/img/icon/arrow.webp') }}"
                                 alt="Image Not Found">
                         </div>
                         Read More
@@ -57,11 +57,11 @@
             <!-- Single Item -->
             <div class="col-xl-3 col-md-6 mb-30 wow fadeInUp" data-wow-delay="400ms">
                 <div class="service-style-one-item">
-                    <img src="{{ asset('frontend/assets/img/icon/6.png') }}" alt="Image Not Found">
-                    <img src="{{ asset('frontend/assets/img/icon/8.png') }}" alt="Image Not Found">
+                    <img src="{{ asset('frontend/assets/img/icon/6.webp') }}" alt="Image Not Found">
+                    <img src="{{ asset('frontend/assets/img/icon/8.webp') }}" alt="Image Not Found">
                     <h4><a href="services-details.html">UI/UX Design</a></h4>
                     <a href="services-details.html" class="btn-style-four">
-                        <div class="icon"><img src="{{ asset('frontend/assets/img/icon/arrow.png') }}"
+                        <div class="icon"><img src="{{ asset('frontend/assets/img/icon/arrow.webp') }}"
                                 alt="Image Not Found">
                         </div>
                         Read More
@@ -78,11 +78,11 @@
             <!-- Single Item -->
             <div class="col-xl-3 col-md-6 mb-30 wow fadeInUp" data-wow-delay="600ms">
                 <div class="service-style-one-item">
-                    <img src="{{ asset('frontend/assets/img/icon/7.png') }}" alt="Image Not Found">
-                    <img src="{{ asset('frontend/assets/img/icon/8.png') }}" alt="Image Not Found">
+                    <img src="{{ asset('frontend/assets/img/icon/7.webp') }}" alt="Image Not Found">
+                    <img src="{{ asset('frontend/assets/img/icon/8.webp') }}" alt="Image Not Found">
                     <h4><a href="services-details.html">Web Design</a></h4>
                     <a href="services-details.html" class="btn-style-four">
-                        <div class="icon"><img src="{{ asset('frontend/assets/img/icon/arrow.png') }}"
+                        <div class="icon"><img src="{{ asset('frontend/assets/img/icon/arrow.webp') }}"
                                 alt="Image Not Found">
                         </div>
                         Read More
