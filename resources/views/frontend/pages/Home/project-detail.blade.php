@@ -52,6 +52,26 @@
                     <div class="right-info col-xl-8 col-lg-7 pl-50 pl-md-15 pl-xs-15 mt-md-10">
                         <h2>Description</h2>
                         <p>{{ $project['description'] }}</p>
+                        <div class="project-links mt-4">
+                            @if ($project['demo_url'])
+                                <a href="{{ $project['demo_url'] }}" target="_blank" class="btn btn-theme me-2 mb-2">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                            @endif
+                            @if ($project['github_url'])
+                                <a href="{{ $project['github_url'] }}" target="_blank" class="btn btn-dark me-2 mb-2">
+                                    <i class="fab fa-github"></i>
+                                    GitHub
+                                </a>
+                            @endif
+                            @if ($project['figma_url'])
+                                <a href="{{ $project['figma_url'] }}" target="_blank" class="btn btn-outline-primary mb-2">
+                                    <i class="fab fa-figma"></i>
+                                    View Design
+                                </a>
+                            @endif
+                        </div>
                     </div>
                 </div>
             </div>

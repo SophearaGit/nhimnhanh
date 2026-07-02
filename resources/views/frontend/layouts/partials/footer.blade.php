@@ -4,7 +4,8 @@
             <div class="col-lg-8 offset-lg-2">
                 <div class="footer-items text-center">
                     <a href="{{ route('home') }}" class="footer-logot">
-                        <img src="{{ asset('frontend/assets/img/ictLogo.jpg') }}" alt="Image Not Found">
+                        <img src="{{ asset('frontend/assets/img/logo_ict_solu.png') }}" alt="Logo"
+                            style="height: 200px; width: auto;">
                     </a>
                     <ul class="foter-menu">
                         <li>

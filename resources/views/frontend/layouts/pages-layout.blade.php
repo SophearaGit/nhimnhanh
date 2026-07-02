@@ -72,6 +72,45 @@
         #lang-btn {
             position: relative;
         }
+
+
+
+        /* Desktop */
+        .navbar-brand img.logo {
+            height: 100px;
+            width: auto;
+            max-height: none;
+        }
+
+        /* Mobile */
+        @media (max-width: 767px) {
+            .navbar-brand img.logo {
+                height: 55px;
+            }
+        }
+
+        /* Footer logo */
+        .footer-logo {
+            height: 100px;
+            /* Adjust to 90px or 100px if you want it bigger */
+            width: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Mobile */
+        @media (max-width: 767px) {
+            .footer-logo {
+                height: 60px;
+            }
+        }
+
+        .footer-logot img.footer-logo {
+            height: 80px;
+            width: auto;
+            max-width: none;
+            max-height: none;
+        }
     </style>
     @stack('styles')
 </head>

@@ -17,7 +17,6 @@
             <div class="col-md-12 gallery-content">
                 <div class="magnific-mix-gallery gallery-masonary">
                     <div id="gallery-masonary" class="gallery-items colums-3">
-
                         @foreach ($projects as $project)
                             <div class="gallery-item">
                                 <div class="gallery-style-one">
@@ -31,8 +30,15 @@
                                                     @endforeach
                                                 </ul>
                                             </div>
-                                            <div class="icon">
-                                                <a href="{{ route('project.detail', $project['id']) }}">
+                                            <div class="icon d-flex align-items-center">
+                                                @if ($project['demo_url'])
+                                                    <a href="{{ $project['demo_url'] }}" target="_blank" class="me-2"
+                                                        title="Live Demo">
+                                                        <i class="fas fa-globe"></i>
+                                                    </a>
+                                                @endif
+                                                <a href="{{ route('project.detail', $project['id']) }}"
+                                                    title="Project Details">
                                                     <i class="fas fa-long-arrow-right"></i>
                                                 </a>
                                             </div>
@@ -51,7 +57,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="load-more-info text-center mt-60 mt-xs-30">
-                            <p>Showing {{ count($projects) }} of 13 projects. <a href="#">Load More</a></p>
+                            <p>Showing {{ count($projects) }} of 21 projects. <a href="#">Load More</a></p>
                         </div>
                     </div>
                 </div>
