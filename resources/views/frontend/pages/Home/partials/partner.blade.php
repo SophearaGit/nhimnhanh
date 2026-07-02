@@ -24,13 +24,13 @@
             <div class="col-lg-12">
                 <div class="partner-style-one-items">
                     <div class="partner-style-one-item wow fadeInLeft">
-                        <img src="{{ asset('frontend/assets/img/partner/ezecom.jpg') }}" alt="EZECOM">
+                        <img src="{{ asset('frontend/assets/img/partner/ezecom.webp') }}" alt="EZECOM">
                     </div>
                     <div class="partner-style-one-item wow fadeInLeft">
-                        <img src="{{ asset('frontend/assets/img/partner/kh24.jpg') }}" alt="KH24">
+                        <img src="{{ asset('frontend/assets/img/partner/kh24.webp') }}" alt="KH24">
                     </div>
                     <div class="partner-style-one-item wow fadeInLeft">
-                        <img src="{{ asset('frontend/assets/img/partner/p-camboNCT.jpg') }}" alt="CamboNCT">
+                        <img src="{{ asset('frontend/assets/img/partner/p-camboNCT.webp') }}" alt="CamboNCT">
                     </div>
                     <div class="partner-style-one-item wow fadeInLeft">
                         <img src="{{ asset('frontend/assets/img/partner/p-cemintel.webp') }}" alt="CEMINTEL">
@@ -41,10 +41,10 @@
                         <img src="{{ asset('frontend/assets/img/partner/p-emerald.webp') }}" alt="Emerald Hub">
                     </div>
                     <div class="partner-style-one-item wow fadeInRight">
-                        <img src="{{ asset('frontend/assets/img/partner/p-loma_tecc.jpg') }}" alt="Loma Technology">
+                        <img src="{{ asset('frontend/assets/img/partner/p-loma_tecc.webp') }}" alt="Loma Technology">
                     </div>
                     <div class="partner-style-one-item wow fadeInRight">
-                        <img src="{{ asset('frontend/assets/img/partner/sabay.png') }}" alt="Sabay">
+                        <img src="{{ asset('frontend/assets/img/partner/sabay.webp') }}" alt="Sabay">
                     </div>
                 </div>
             </div>

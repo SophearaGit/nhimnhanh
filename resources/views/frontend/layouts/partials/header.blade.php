@@ -23,7 +23,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="{{ route('home') }}">
-                    <img src="{{ asset('frontend/assets/img/logo_ict_solu.png') }}" class="logo" alt="Logo">
+                    <img src="{{ asset('frontend/assets/img/logo_ict_solu.webp') }}" class="logo" alt="Logo">
                 </a>
             </div>
 
@@ -31,7 +31,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-menu">
-                <img src="{{ asset('frontend/assets/img/logo_ict_solu.png') }}" alt="Logo">
+                <img src="{{ asset('frontend/assets/img/logo_ict_solu.webp') }}" alt="Logo">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                     <i class="fa fa-times"></i>
                 </button>

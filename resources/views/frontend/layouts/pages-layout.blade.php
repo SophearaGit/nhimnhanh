@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Antux - Personal Portfolio Template">
     <title>@yield('page_title') - Nhanh Nhim Portfolio</title>
-    <link rel="shortcut icon" href="{{ asset('frontend/assets/img/ictLogo.jpg') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('frontend/assets/img/ictLogo.webp') }}" type="image/x-icon">
     <link href="{{ asset('frontend/assets/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/assets/css/font-awesome.min.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/assets/css/magnific-popup.css') }}" rel="stylesheet">
@@ -19,6 +19,9 @@
     <link href="{{ asset('frontend/assets/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/assets/style.css') }}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Battambang:wght@400;700&display=swap" rel="stylesheet">
+    @if (isset($project))
+        <link rel="preload" as="image" href="{{ asset($project['thumbnail']) }}">
+    @endif
     <style>
         .goog-te-banner-frame,
         #goog-te-banner-frame,

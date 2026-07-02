@@ -1,7 +1,7 @@
 <div id="about" class="about-style-one-area bg-gray default-padding">
     <div class="shape-style-one">
-        <img src="{{ asset('frontend/assets/img/shape/3.png') }}" alt="Image Not Found">
-        <img class="upDownScrol" src="{{ asset('frontend/assets/img/shape/8.png') }}" alt="Image Not Found">
+        <img src="{{ asset('frontend/assets/img/shape/3.webp') }}" alt="Image Not Found">
+        <img class="upDownScrol" src="{{ asset('frontend/assets/img/shape/8.webp') }}" alt="Image Not Found">
     </div>
     <div class="container">
         <div class="row">
@@ -25,13 +25,13 @@
                 <div class="clieents-list mt-40">
                     <div class="d-flex">
                         <div class="thumb" style="display: flex; align-items: center;">
-                            <img src="{{ asset('frontend/assets/img/team/14.jpg') }}" alt="Client"
+                            <img src="{{ asset('frontend/assets/img/team/14.webp') }}" alt="Client"
                                 style="width: 50px; height: 50px; object-fit: cover; border-radius: 50%; border: 2px solid #fff; transform: scale(1.3);">
-                            <img src="{{ asset('frontend/assets/img/team/15.jpg') }}" alt="Client"
+                            <img src="{{ asset('frontend/assets/img/team/15.webp') }}" alt="Client"
                                 style="width: 50px; height: 50px; object-fit: cover; border-radius: 50%; border: 2px solid #fff; margin-left: -10px; transform: scale(1.3); ">
-                            <img src="{{ asset('frontend/assets/img/team/16.jpg') }}" alt="Client"
+                            <img src="{{ asset('frontend/assets/img/team/16.webp') }}" alt="Client"
                                 style="width: 50px; height: 50px; object-fit: cover; border-radius: 50%; border: 2px solid #fff; margin-left: -10px; transform: scale(1.3); ">
-                            <img src="{{ asset('frontend/assets/img/team/17.jpg') }}" alt="Client"
+                            <img src="{{ asset('frontend/assets/img/team/17.webp') }}" alt="Client"
                                 style="width: 50px; height: 50px; object-fit: cover; border-radius: 50%; border: 2px solid #fff; margin-left: -10px; transform: scale(1.3);">
                         </div>
                         <div class="info">
@@ -62,7 +62,7 @@
             <div class="row">
                 <div class="col-lg-8 pr-60 pr-md-15 pr-xs-15">
                     <div class="img-container">
-                        <img src="{{ asset('frontend/assets/img/about/1.jpg') }}" alt="Image Not Found">
+                        <img src="{{ asset('frontend/assets/img/about/1.webp') }}" alt="Image Not Found">
                         <a href="https://www.youtube.com/watch?v=3yF4xTmgei0" class="popup-youtube video-play-button">
                             <i class="fas fa-play"></i>
                             <div class="effect"></div>
@@ -70,7 +70,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="{{ asset('frontend/assets/img/about/2.png') }}" alt="Image Not Found">
+                    <img src="{{ asset('frontend/assets/img/about/2.webp') }}" alt="Image Not Found">
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 <div id="pricing" class="pricing-style-one-area default-padding bg-light">
     <div class="shape-right-top">
-        <img src="{{ asset('frontend/assets/img/shape/15.png') }}" alt="Image Not Found">
+        <img src="{{ asset('frontend/assets/img/shape/15.webp') }}" alt="Image Not Found">
     </div>
     <div class="container">
         <div class="row">

@@ -1,10 +1,11 @@
-<footer class="default-padding bg-cover" style="background-image: url('{{ asset('frontend/assets/img/shape/1.jpg') }}');">
+<footer class="default-padding bg-cover"
+    style="background-image: url('{{ asset('frontend/assets/img/shape/1.1.webp') }}');">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <div class="footer-items text-center">
                     <a href="{{ route('home') }}" class="footer-logot">
-                        <img src="{{ asset('frontend/assets/img/logo_ict_solu.png') }}" alt="Logo"
+                        <img src="{{ asset('frontend/assets/img/logo_ict_solu.webp') }}" alt="Logo"
                             style="height: 200px; width: auto;">
                     </a>
                     <ul class="foter-menu">

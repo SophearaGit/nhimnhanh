@@ -26,7 +26,8 @@
         <div class="container">
             <div class="image-move-bg">
                 <div class="animation-zoom-banner" id="js-hero">
-                    <img src="{{ asset($project['thumbnail']) }}" alt="{{ $project['title'] }}">
+                    <img src="{{ asset($project['thumbnail']) }}" alt="{{ $project['title'] }}" loading="eager"
+                        fetchpriority="high" decoding="async" width="1200" height="auto">
                 </div>
             </div>
         </div>
@@ -85,7 +86,9 @@
                 <div class="row">
                     @foreach ($project['images'] as $index => $image)
                         <div class="{{ $index === 0 ? 'col-md-7' : 'col-md-5' }}">
-                            <img src="{{ asset($image) }}" alt="{{ $project['title'] }}">
+                            <img src="{{ asset($image) }}" alt="{{ $project['title'] }}" loading="lazy" decoding="async"
+                                width="900" height="auto"
+                                style="width: 100%; height: auto; object-fit: cover; display: block;">
                         </div>
                     @endforeach
                 </div>
