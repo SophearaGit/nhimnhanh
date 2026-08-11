@@ -12,7 +12,7 @@
                         </p>
                         <h5 style="margin: 0; font-size: 17px; font-weight: 700;">I would like to chat with you</h5>
                     </div>
-                    <a href="https://t.me/nhannhim" target="_blank"
+                    <a href="https://t.me/nhanhnhim" target="_blank" rel="noopener noreferrer"
                         style="display: inline-flex; align-items: center; gap: 8px; background: #229ED9; color: #fff; padding: 11px 20px; border-radius: 50px; font-size: 14px; font-weight: 600; text-decoration: none; white-space: nowrap; flex-shrink: 0;">
                         <i class="fab fa-telegram" style="font-size: 16px;"></i> Chat on Telegram
                     </a>

@@ -52,7 +52,8 @@
                         </div>
                         <div class="flex-social mt-40">
                             <div class="button">
-                                <a class="btn-style-regular" href="#contact"><span>Contact</span> <i
+                                <a class="btn-style-regular" href="https://t.me/nhanhnhim" target="_blank"
+                                    rel="noopener noreferrer"><span>Contact</span> <i
                                         class="fas fa-arrow-right"></i></a>
                             </div>
                             <ul class="social-info">
@@ -63,7 +64,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://t.me/nhannhim" target="_blank">
+                                    <a href="https://t.me/nhanhnhim" target="_blank">
                                         <i class="fab fa-telegram-plane"></i>
                                     </a>
                                 </li>
