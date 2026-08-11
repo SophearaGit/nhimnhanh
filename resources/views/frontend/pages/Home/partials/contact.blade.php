@@ -41,7 +41,7 @@
                             <div class="col-lg-12">
                                 <button class="btn-style-regular" type="submit" name="submit" id="submit">
                                     {{-- <span>Get in Touch</span> <i class="fas fa-arrow-right"></i> --}}
-                                    <span><a href="https://t.me/nhannhim" target="_blank">
+                                    <span><a href="https://t.me/nhanhnhim" target="_blank">
                                             Get in Touch
                                         </a></span> <i class="fas fa-arrow-right"></i>
                                 </button>
