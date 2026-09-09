@@ -88,7 +88,7 @@
                         </div>
                     </div>
                     <div class="thumb">
-                        <img src="{{ asset('frontend/assets/img/illustration/1.webp') }}" alt="Image Not Found"
+                        <img src="{{ asset('frontend/assets/img/illustration/1.png') }}" alt="Image Not Found"
                             loading="eager" fetchpriority="high" decoding="async">
                         <img src="{{ asset('frontend/assets/img/shape/1.webp') }}" alt="Image Not Found">
                         <img src="{{ asset('frontend/assets/img/shape/3.webp') }}" alt="Image Not Found">
